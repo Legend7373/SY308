@@ -1,0 +1,32 @@
+Script started on 2021-03-13 17:31:38-08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="199" LINES="14"]
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ python3 -m http.server --cgi 8000[K[K]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ pyton3 [K[K[K[Khon3 CCA.py
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ diff cbc.bin Mforge1.bbbbbbbbbbbb[K[K[K[K[K[K[K[K[K[K[Kin
+1c1
+< XãLO.k}Îb›­ñ¥þ½¡›MGOÊp]ÆÎ×JžóPœbÀÐ¢ŽrÂÁ›¶ï€›~4aI1Ø<‰•×¡çÕ^¹£¡Ñ¹ž¡ÖÏ&çôŠ¢¾È;ß-%º’:Àþò¯…¼`,×h+$^!ïlný ±æóË
+\ No newline at end of file
+---
+> XãLO.k}Îb›­ñ¥þ½¡›MGOÊp]ÆÎ×JžóPœbÀÐ¢ŽrÂÁ›¶ï€›~4aI1Ø<‰•×¡çÕ^¹£¡Ñ¹ž¡ÖÏ&çôŠ¢¾È;ß-%º’:Àþò¯…¼`-×h+$^!ïlný ±æóË
+\ No newline at end of file
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ diff cbc.bin Mforge1.bin[10Ppython3 CCA.pydiff cbc.bin Mforge1.bin[K./cbc_dec_box Mforge1.bin dec.txt
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ ./cbc_dec_box Mforge1.bin dec.txt[9Pdiff cbc.bin Mforge1.bin[10Ppython3 CCA.pydiff cbc.bin Mforge1.bin./cbc_dec_box Mforge1.bin dec.txt[Khexdump -C dec.txt
+00000000  41 72 65 20 43 42 43 20  61 6e 64 20 43 54 52 20  |Are CBC and CTR |
+00000010  6d 6f 64 65 73 20 49 4e  44 2d 43 43 41 20 73 65  |modes IND-CCA se|
+00000020  63 75 72 65 3f 20 20 4e  6f 2c 20 74 68 65 79 20  |cure?  No, they |
+00000030  61 72 65 20 6e 6f 74 2e  20 49 74 27 73 20 6d 61  |are not. It's ma|
+00000040  69 6e 6c 79 20 62 65 63  61 75 73 65 20 74 68 65  |inly because the|
+00000050  58 68 5c 08 d1 66 a6 99  b1 b9 9b 09 af 00 b1 a4  |Xh\..f..........|
+00000060  6c 6c 65 61 62 6c 65 2e  2e 2e 2e 2e 2f 2e        |lleable...../.|
+0000006e
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ hexdump -C dec.txt[1P.txt[1P.txt[1P.txtM.txt0.txt
+00000000  41 72 65 20 43 42 43 20  61 6e 64 20 43 54 52 20  |Are CBC and CTR |
+00000010  6d 6f 64 65 73 20 49 4e  44 2d 43 43 41 20 73 65  |modes IND-CCA se|
+00000020  63 75 72 65 3f 20 20 4e  6f 2c 20 74 68 65 79 20  |cure?  No, they |
+00000030  61 72 65 20 6e 6f 74 2e  20 49 74 27 73 20 6d 61  |are not. It's ma|
+00000040  69 6e 6c 79 20 62 65 63  61 75 73 65 20 74 68 65  |inly because the|
+00000050  79 20 73 63 68 65 6d 65  73 20 61 72 65 20 6d 61  |y schemes are ma|
+00000060  6c 6c 65 61 62 6c 65 2e  2e 2e 2e 2e 2e 2e 0a     |lleable........|
+0000006f
+]0;m220156@ubuntu: ~/Documents/SY308/hw08[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw08[00m$ exit
+exit
+
+Script done on 2021-03-13 17:33:48-08:00 [COMMAND_EXIT_CODE="0"]

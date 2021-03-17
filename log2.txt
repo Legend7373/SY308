@@ -1,0 +1,12 @@
+Script started on 2021-03-04 16:40:07-08:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="237" LINES="62"]
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ exithexdump -C M1.txt[1P.txtopenssl enc -d -aes-128-cbc -K 00112233445566778899aabbccddeeff -iv 0123456789abcdef0123456789abcdef -in cbc1.out -out M1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chexdump -C cbc1.out[K[1P.out2.out
+00000000  41 58 5e 5a dc 2a 12 aa  1a ba a3 b4 b4 00 a0 0c  |AX^Z.*..........|
+00000010  35 7f 04 db 58 19 ca 7b  b7 55 03 0f cd a1 4a 03  |5...X..{.U....J.|
+00000020
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ hexdump -C cbc2.outexit[Khexdump -C M1.txt[1P.txtopenssl enc -d -aes-128-cbc -K 00112233445566778899aabbccddeeff -iv 0123456789abcdef0123456789abcdef -in cbc1.out -out M1.txt[1P[1@2
+bad decrypt
+140073563592000:error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt:../crypto/evp/evp_enc.c:615:
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ exit
+exit
+
+Script done on 2021-03-04 16:40:33-08:00 [COMMAND_EXIT_CODE="1"]

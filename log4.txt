@@ -1,0 +1,20 @@
+Script started on 2021-03-05 19:45:22-08:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="237" LINES="62"]
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ hexdump -C Mforge2.bin
+00000000  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000010  41 42 43 44 45 46 30 31  32 33 34 35 36 37 38 39  |ABCDEF0123456789|
+00000020  16 7d 38 93 17 aa bb 36  79 20 2c 1d 17 8b 9e 86  |.}8....6y ,.....|
+00000030  41 42 43 44 45 46 30 31  32 33 34 35 36 37 38 39  |ABCDEF0123456789|
+00000040
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ diff M.txt Mfroge[K[K[K[Korge.[K2.bin
+1c1
+< 0123456789ABCDEFABCDEF0123456789
+\ No newline at end of file
+---
+> 0123456789ABCDEFABCDEF0123456789}8“ª»6y ,‹ž†ABCDEF0123456789
+\ No newline at end of file
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ diff M.txt Mforge2.binhexdump -C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./verify1 Mforge1.bin Tforge1.bin[11Pdiff M.txt Mforge1.bin./verify1 Mforge1.bin Tforge1.bin[C[1P[1@2[C[C[C[C[C[C[C[C[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[1P.bin2.bin
+The tag is valid!
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ exit
+exit
+
+Script done on 2021-03-05 19:46:49-08:00 [COMMAND_EXIT_CODE="0"]

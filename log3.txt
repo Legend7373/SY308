@@ -1,0 +1,18 @@
+Script started on 2021-03-05 09:39:44-08:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="237" LINES="62"]
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ exit./verify1 Mforge.bin Tforge1.bin[10Pdiff M.txt Mforge1.binhexdump -C[C[C[C[C[C[C[C[C[C[C[C[C
+00000000  41 42 43 44 45 46 30 31  32 33 34 35 36 37 38 39  |ABCDEF0123456789|
+00000010  30 31 32 33 34 35 36 37  38 39 41 42 43 44 45 46  |0123456789ABCDEF|
+00000020
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ hexdump -C Mforge1.binexit[K./verify1 Mforge.bin Tforge1.bin[10Pdiff M.txt Mforge1.bin
+1c1
+< 0123456789ABCDEFABCDEF0123456789
+\ No newline at end of file
+---
+> ABCDEF01234567890123456789ABCDEF
+\ No newline at end of file
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ diff M.txt Mforge1.binhexdump -C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./verify1 Mforge.bin Tforge1.bin[1@1
+The tag is valid!
+]0;m220156@ubuntu: ~/Documents/SY308/hw06[01;32mm220156@ubuntu[00m:[01;34m~/Documents/SY308/hw06[00m$ exit
+exit
+
+Script done on 2021-03-05 09:40:01-08:00 [COMMAND_EXIT_CODE="0"]
